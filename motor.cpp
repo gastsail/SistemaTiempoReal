@@ -39,13 +39,10 @@ class SimulatedMotor{
 };
 
 int main(){
-     
-     
-    
-
+     velMotorEstatica();
 }
 
-void myFunction() {
+void velMotorEstatica() {
    double velMax,sens,torque;
      cout << "Velocidad Máxima del motor: ";
      cin >> velMax;
